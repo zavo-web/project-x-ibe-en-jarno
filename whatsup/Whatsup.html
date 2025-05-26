@@ -1,26 +1,40 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whatsupp</title>
     <link rel="stylesheet" href="Whatsup.css">
-    </head>
-    <body>
-        <header>
-            <img src="logo2.png" alt="logo" width="125">
-            <p>Whatsup</p>
-        </header>
-        <nav>
-
-        <nav>
-    <a href="chats.html"><img src="whatsup/chat_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"></a>
-    <a href="profiel.html"><img src="whatsup/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"></a>
-    <a href="belgeschiedenis.html"><img src="call_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"></a>
-    <a href="instellingen.html"><img src="whatsup/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"></a>
-        <footer>
-
-        </footer>
-    
-    </body>
-    </html>
+</head>
+<body>
+    <header>
+        <img src="/whatsup/Afbeeldingen/logo2.png" alt="logo" width="125">
+        <p>Whatsup</p>
+        <div class="grid-contacten">
+            <div><h1>persoon 1</h1></div>
+            <div><h1>persoon 2</h1></div>
+            <div><h1>persoon 3</h1></div>
+            <div><h1>persoon 4</h1></div>
+            <div><h1>persoon 5</h1></div>
+        </div>
+    </header>
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <div class="message bot">Welkom bij Whatsup! 👋</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Typ een bericht...">
+            <button onclick="sendMessage()">Verzenden</button>
+        </div>
+    </div>
+    <footer>        
+    <nav>
+        <ul>
+            <li><a href="chats.html">Chats</a></li>
+            <li><a href="profiel.html">Profiel</a></li>
+            <li><a href="belgeschiedenis.html">Belgeschiedenis</a></li>
+            <li><a href="instellingen.html">Instellingen</a></li>
+        </ul>
+    </nav>
+    </footer>
+</body>
+</html>
