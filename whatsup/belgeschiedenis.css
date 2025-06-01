@@ -4,6 +4,19 @@
   padding: 0;
 }
 
+.header {
+  display: flex;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 50px;
+  background-color: #007a5e; /* Zelfde achtergrondkleur als de pagina */
+}
+
+.logo {
+  width: 100px; /* Pas deze waarde aan naar wens */
+  height: auto; /* Behoudt de aspect ratio */
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -33,6 +46,7 @@ html, body {
 
 .card-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -41,6 +55,10 @@ html, body {
   width: 80px;
   height: 80px;
   object-fit: cover;
+}
+
+.phone_image img {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(97%) saturate(747%) hue-rotate(90deg) brightness(93%) contrast(92%);
 }
 
 .details {
