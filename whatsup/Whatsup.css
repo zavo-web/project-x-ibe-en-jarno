@@ -125,3 +125,36 @@ nav ul li a:hover {
     background-color: #00695c;
     border-radius: 4px;
 }
+@media (max-width: 425px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+   body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1440px) {
+    body {
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
